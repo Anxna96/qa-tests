@@ -4,6 +4,7 @@ The repository contains two types of tests for the application using the [SauceD
 -  Manual tests (documented with shootscreens)
 
 ## Project Structure
+```
 qa-tests/
 ├── cypress/
 │   └── e2e/
@@ -31,7 +32,7 @@ qa-tests/
 ├── package-lock.json
 ├── package.json
 └── README.md
-
+```
 -----
 
 # Automated Testing
