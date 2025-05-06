@@ -6,31 +6,31 @@ The repository contains two types of tests for the application using the [SauceD
 ## Project Structure
 qa-tests/
 ├── cypress/
-│ └── e2e/
-│ └── login_spec.cy.js 
+│   └── e2e/
+│       └── login_spec.cy.js 
 ├── evidence_of_test_results/
-│ ├── automated_Cypress/ # screenshots of the automatic tests
-│ │ ├── T01_login_success.png
-│ │ └── T02_empty_fields.png
-│ │ └── T03_wrong_password.png
-│ │ └── T04_wrong_username.png
-│ │ └── T05_empty_username.png
-│ │ └── T06_empty_password.png
-│ ├── manual/ # manual test screenshots
-│ │ ├── T01_login_page.png
-│ │ └── T01_login_username_password.png
-│ │ └── T02_empty_username_password.png
-│ │ └── T03_wrong_password.png
-│ │ └── T04_wrong_username.png
-│ │ └── T05_empty_username.png
-│ │ └── T06_empty_password.png
+│   ├── automated_Cypress/         # screenshots of the automatic tests
+│   │   ├── T01_login_success.png
+│   │   ├── T02_empty_fields.png
+│   │   ├── T03_wrong_password.png
+│   │   ├── T04_wrong_username.png
+│   │   ├── T05_empty_username.png
+│   │   └── T06_empty_password.png
+│   ├── manual/                    # manual test screenshots
+│   │   ├── T01_login_page.png
+│   │   ├── T01_login_username_password.png
+│   │   ├── T02_empty_username_password.png
+│   │   ├── T03_wrong_password.png
+│   │   ├── T04_wrong_username.png
+│   │   ├── T05_empty_username.png
+│   │   └── T06_empty_password.png
 ├── node_modules/ 
 ├── test-cases/
-│ └── login_test_cases.md
+│   └── login_test_cases.md
 ├── cypress.config.js
 ├── package-lock.json
 ├── package.json
-└── README.md 
+└── README.md
 
 -----
 
