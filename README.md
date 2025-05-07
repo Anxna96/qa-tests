@@ -33,6 +33,7 @@ qa-tests/
 ├── package.json
 └── README.md
 ```
+
 -----
 
 # Automated Testing
@@ -45,13 +46,12 @@ The manual tests were run using different login scenarios, such as the use of va
 
 ### Test Cases
 All the test scenarios are documented in the file test-cases/login_test_cases.md. For each test, the objective, the input data, the steps to follow and the expected result are described. The following list summarizes the tests performed:
-
--T01: Login with valid credentials
--T02: Login with empty username and password fields
--T03: Login with wrong password
--T04: Login with wrong username
--T05: Login with empty username
--T06: Login with empty password
+- T01: Login with valid credentials
+- T02: Login with empty username and password fields
+- T03: Login with wrong password
+- T04: Login with wrong username
+- T05: Login with empty username
+- T06: Login with empty password
 
 The manual test cases are documented in the file test-cases/login_test_cases.md. While the automated tests can be found directly in the code (cypress/e2e/login_spec.cy.js)
 
